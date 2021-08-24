@@ -1,5 +1,3 @@
-#Erickson Vásquez
-
 #1.	ESCRIBIR UN PROGRAMA PARA SUMAR DOS NÚMEROS LEÍDOS POR TECLADO Y ESCRIBIR EL RESULTADO.
 
 def sum(a, b):
@@ -17,7 +15,7 @@ def nums(a, b):
          
          if a>b:
              print('El primer valor es mayor que el segundo')
-        # TODO: write code...
+    
          elif b>a:
              print('El segundo valor es mayor que el primero')
          else:
@@ -162,8 +160,6 @@ print(producto_de_impares)
 print(' \n')
 
 
-
-#10. CALCULAR EL MÁXIMO DE N NÚMEROS LEÍDOS DESDE TECLADO.
 #10. CALCULAR EL MÁXIMO DE N NÚMEROS LEÍDOS DESDE TECLADO.
 cuantos = int(input('¿Cúantos números quieres insertar en pantalla?'))
 numeros = []
