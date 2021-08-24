@@ -1,3 +1,5 @@
+#Erickson Vásquez
+
 #1.	ESCRIBIR UN PROGRAMA PARA SUMAR DOS NÚMEROS LEÍDOS POR TECLADO Y ESCRIBIR EL RESULTADO.
 
 def sum(a, b):
@@ -15,7 +17,7 @@ def nums(a, b):
          
          if a>b:
              print('El primer valor es mayor que el segundo')
-    
+        # TODO: write code...
          elif b>a:
              print('El segundo valor es mayor que el primero')
          else:
@@ -95,7 +97,6 @@ for i in range(1,10+1):
 
 
 #8.	ESCRIBIR UN PROGRAMA PARA SUMAR LOS N PRIMEROS IMPARES. REALIZAR DESPUÉS UNO QUE HAGA LO MISMO CON LOS PARES Y OTRO CON LOS MÚLTIPLOS DE 3.
-#7.	HACER UN PROGRAMA QUE PERMITA ESCRIBIR LOS 10 PRIMEROS PARES INGRESADOS POR TECLADO.
 cuantos_pares=int(input("¿Cúantos números pares como máximo quieres sumar?"))
 cuantos_impares=int(input("¿Cúantos números impares como máximo quieres sumar?"))
 cuantos_multiplo=int(input("¿Cúantos números múltiplos de 3 como máximo quieres sumar?"))
@@ -158,6 +159,7 @@ print(' \n')
 print('EL PRODUCTO DE LOS IMPARES ES: \n')
 print(producto_de_impares)
 print(' \n')
+
 
 
 #10. CALCULAR EL MÁXIMO DE N NÚMEROS LEÍDOS DESDE TECLADO.
