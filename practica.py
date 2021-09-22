@@ -59,19 +59,13 @@ print(str(c))
 
 #5.	ESCRIBIR UN PROGRAMA EN PYTHON PARA SUMAR 10 NÚMEROS LEÍDOS POR TECLADO:
 
-a=float(input("Ingrese el primer valor"))
-b=float(input("Ingrese el segundo valor"))
-c=float(input("Ingrese el tercer valor"))
-d=float(input("Ingrese el cuarto valor"))
-e=float(input("Ingrese el quinto valor"))
-f=float(input("Ingrese el sexto valor"))
-g=float(input("Ingrese el septimo valor"))
-h=float(input("Ingrese el octavo valor"))
-i=float(input("Ingrese el noveno valor"))
-j=float(input("Ingrese el decimo valor"))
-
+count=0
+for item in range(10):
+    # TODO: write code...
+    item=float(input("Ingrese el valor # "+str(item+1)))
+    count=count+item
 print('LA SUMA DE TODOS LOS VALORES ES:')
-print(a+b+c+d+e+f+g+h+i+j)
+print(count)
 
 #6.	MODIFICAR EL PROGRAMA ANTERIOR PARA QUE PERMITA SUMAR N NÚMEROS. EL VALOR DE N SE DEBE LEER PREVIAMENTE POR TECLADO:
 
