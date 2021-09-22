@@ -1,6 +1,6 @@
 #Erickson Vásquez
 
-#1.	ESCRIBIR UN PROGRAMA PARA SUMAR DOS NÚMEROS LEÍDOS POR TECLADO Y ESCRIBIR EL RESULTADO.
+#1. ESCRIBIR UN PROGRAMA PARA SUMAR DOS NÚMEROS LEÍDOS POR TECLADO Y ESCRIBIR EL RESULTADO:
 
 def sum(a, b):
     return (a + b)
@@ -10,7 +10,7 @@ b = int(input('Escribe el segundo numero: '))
 
 print(f'La suma de {a} y {b} es {sum(a, b)}')
 
-#2.	ESCRIBIR UN PROGRAMA QUE PERMITA LEER 2 NÚMEROS DIFERENTES Y NOS DIGA CUÁL ES EL MAYOR DE LOS 2 NÚMEROS.
+#2.	ESCRIBIR UN PROGRAMA QUE PERMITA LEER 2 NÚMEROS DIFERENTES Y NOS DIGA CUÁL ES EL MAYOR DE LOS 2 NÚMEROS:
 
 def nums(a, b):
     if a.isnumeric() and b.isnumeric():
@@ -31,9 +31,7 @@ a = input('Escribe el primer numero: ')
 b = input('Escribe el segundo numero: ')
 nums(a,b)
 
-
-
-#3.	CREAR UN PROGRAMA EN PYTHON EN EL QUE SE ALMACENEN 3 NÚMEROS EN 3 VARIABLES A, B Y C. EL PROGRAMA DEBE DECIDIR CUÁL ES EL MAYOR Y CUÁL ES EL MENOR.
+#3.	CREAR UN PROGRAMA EN PYTHON EN EL QUE SE ALMACENEN 3 NÚMEROS EN 3 VARIABLES A, B Y C. EL PROGRAMA DEBE DECIDIR CUÁL ES EL MAYOR Y CUÁL ES EL MENOR:
 
 def nums(va, vb, vc):
     if va.isnumeric() and vb.isnumeric() and vc.isnumeric():
@@ -50,8 +48,8 @@ b = input('Escribe el segundo numero: ')
 c = input('Escribe el tercer numero: ')
 nums(a,b,c)
 
+#4.	REALIZAR UN PROGRAMA PARA QUE NOS CALCULE LA HIPOTENUSA DE UN TRIÁNGULO RECTÁNGULO, CONOCIDOS SUS DOS CATETOS:
 
-#4.	REALIZAR UN PROGRAMA PARA QUE NOS CALCULE LA HIPOTENUSA DE UN TRIÁNGULO RECTÁNGULO, CONOCIDOS SUS DOS CATETOS.
 import math
 a=float(input("Ingrese el valor de un cateto\n"))
 b=float(input("Ingrese el valor del otro cateto\n"))
@@ -59,7 +57,7 @@ c=math.sqrt((a*a+b*b))
 print('LA HIPOTENUSA ES:')
 print(str(c))
 
-#5.	ESCRIBIR UN PROGRAMA EN PYTHON PARA SUMAR 10 NÚMEROS LEÍDOS POR TECLADO.
+#5.	ESCRIBIR UN PROGRAMA EN PYTHON PARA SUMAR 10 NÚMEROS LEÍDOS POR TECLADO:
 
 a=float(input("Ingrese el primer valor"))
 b=float(input("Ingrese el segundo valor"))
@@ -75,7 +73,8 @@ j=float(input("Ingrese el decimo valor"))
 print('LA SUMA DE TODOS LOS VALORES ES:')
 print(a+b+c+d+e+f+g+h+i+j)
 
-#6.	MODIFICAR EL PROGRAMA ANTERIOR PARA QUE PERMITA SUMAR N NÚMEROS. EL VALOR DE N SE DEBE LEER PREVIAMENTE POR TECLADO.
+#6.	MODIFICAR EL PROGRAMA ANTERIOR PARA QUE PERMITA SUMAR N NÚMEROS. EL VALOR DE N SE DEBE LEER PREVIAMENTE POR TECLADO:
+
 total=0;
 cantidad_de_numeros=int(input("¿Cúantos números deseas sumar?"))
 print('\n\n\n')
@@ -84,9 +83,8 @@ for i in range(1,cantidad_de_numeros+1):
     total=total+numero_a_sumar;
 print('La suma total de los números es ' +str(total))
 
+#7.	HACER UN PROGRAMA QUE PERMITA ESCRIBIR LOS 10 PRIMEROS PARES INGRESADOS POR TECLADO:
 
-
-#7.	HACER UN PROGRAMA QUE PERMITA ESCRIBIR LOS 10 PRIMEROS PARES INGRESADOS POR TECLADO.
 print('\n\n\n')
 for i in range(1,10+1):
     valor=int(input("Inserte el valor # "+str(i)))
@@ -96,7 +94,8 @@ for i in range(1,10+1):
         print('El número', valor, 'es impar.')
 
 
-#8.	ESCRIBIR UN PROGRAMA PARA SUMAR LOS N PRIMEROS IMPARES. REALIZAR DESPUÉS UNO QUE HAGA LO MISMO CON LOS PARES Y OTRO CON LOS MÚLTIPLOS DE 3.
+#8.	ESCRIBIR UN PROGRAMA PARA SUMAR LOS N PRIMEROS IMPARES. REALIZAR DESPUÉS UNO QUE HAGA LO MISMO CON LOS PARES Y OTRO CON LOS MÚLTIPLOS DE 3:
+
 cuantos_pares=int(input("¿Cúantos números pares como máximo quieres sumar?"))
 cuantos_impares=int(input("¿Cúantos números impares como máximo quieres sumar?"))
 cuantos_multiplo=int(input("¿Cúantos números múltiplos de 3 como máximo quieres sumar?"))
@@ -136,9 +135,8 @@ print('LA SUMA DE LOS MULTIPLOS DE 3 ES: \n')
 print(sumador_multiplo)
 print(' \n')
 
+#9.	HACER UN PROGRAMA QUE LEA N NÚMEROS, CALCULE Y ESCRIBA LA SUMA DE LOS PARES Y EL PRODUCTO DE LOS IMPARES:
 
-
-#9.	HACER UN PROGRAMA QUE LEA N NÚMEROS, CALCULE Y ESCRIBA LA SUMA DE LOS PARES Y EL PRODUCTO DE LOS IMPARES.
 cuantos=int(input("¿Cúantos números deseas calcular?"))
 
 sumador_pares = 0
@@ -160,9 +158,8 @@ print('EL PRODUCTO DE LOS IMPARES ES: \n')
 print(producto_de_impares)
 print(' \n')
 
+#10. CALCULAR EL MÁXIMO DE N NÚMEROS LEÍDOS DESDE TECLADO:
 
-
-#10. CALCULAR EL MÁXIMO DE N NÚMEROS LEÍDOS DESDE TECLADO.
 cuantos = int(input('¿Cúantos números quieres insertar en pantalla?'))
 numeros = []
 for i in range(1,cuantos+1):
@@ -171,4 +168,3 @@ for i in range(1,cuantos+1):
 
 numeros.sort(reverse = False)
 print('El número más alto es '+ str(numeros[cuantos-1]))
-
